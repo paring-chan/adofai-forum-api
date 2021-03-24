@@ -12,5 +12,8 @@
   "devDependencies": {
     "@vercel/node": "^1.9.1",
     "vercel": "^21.3.3"
+  },
+  "dependencies": {
+    "googleapis": "^68.0.0"
   }
 }
