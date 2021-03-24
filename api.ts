@@ -10,7 +10,7 @@ const cache = new TLRU({
     maxAgeMs: 60000,
 })
 
-export async function getSheet() {
+export async function getSheet(): Promise<any> {
     const cached = cache.get('data')
     if (cached) return cached
 
